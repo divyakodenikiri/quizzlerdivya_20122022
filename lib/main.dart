@@ -82,11 +82,11 @@ class _QuizPageState extends State<QuizPage> {
                 }else{
                   print('user wrong');
 
-            
+                }
                 setState(() {
                   questionNumber++;
                 });
-                }
+                
 
 
               
