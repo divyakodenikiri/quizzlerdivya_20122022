@@ -27,7 +27,13 @@ class QuizPage extends StatefulWidget {
 class _QuizPageState extends State<QuizPage> {
   List<Icon> scorkeeper = [];
   List<String> questions = [
+
+
+
     'You can lead an cow down stairs but not up stairs.?',
+   
+
+
     'Approximately one quarter of human bones are in the feet.?',
     'A slug\'s blood is green.?',
   ];
@@ -73,6 +79,7 @@ class _QuizPageState extends State<QuizPage> {
               ),
               onPressed: () {
                 //The user picked true.
+
 
                 bool correctAnswer = answers[questionNumber];
 
