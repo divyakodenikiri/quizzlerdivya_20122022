@@ -29,8 +29,10 @@ class _QuizPageState extends State<QuizPage> {
   List<String> questions = [
 
 
+
     'You can lead an cow down stairs but not up stairs.?',
    
+
 
     'Approximately one quarter of human bones are in the feet.?',
     'A slug\'s blood is green.?',
@@ -78,7 +80,6 @@ class _QuizPageState extends State<QuizPage> {
               onPressed: () {
                 //The user picked true.
 
-                //The user picked true.
 
                 bool correctAnswer = answers[questionNumber];
 
@@ -148,3 +149,4 @@ question2: 'Approximately one quarter of human bones are in the feet.', true,
 question3: 'A slug\'s blood is green.', true,
 */
 //hello
+//heloo
