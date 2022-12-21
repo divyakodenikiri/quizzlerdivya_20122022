@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:quizzlerdivya_20122022/question.dart';
 
@@ -27,8 +28,14 @@ class QuizPage extends StatefulWidget {
 
 class _QuizPageState extends State<QuizPage> {
   List<Icon> scorkeeper = [];
+
   List<String> questions = [
+
     'You can lead a cow down stairs but not up stairs.?',
+
+
+
+
     'Approximately one quarter of human bones are in the feet.?',
     'A slug\'s blood is green.?',
   ];
@@ -42,6 +49,13 @@ class _QuizPageState extends State<QuizPage> {
   //   Question(q: 'Approximately one quarter of human bones are in the feet.?', a: false),
   //   Question(q: 'A slug\'s blood is green.?', a: false),
   // ];
+
+  Question q1 = Question(
+    q: 'You can lead a cow down stairs but not up stairs.?', a:false);
+
+
+  
+
 
   int questionNumber = 0;
 
@@ -82,6 +96,7 @@ class _QuizPageState extends State<QuizPage> {
               ),
               onPressed: () {
                 //The user picked true.
+
 
                 bool correctAnswer = answers[questionNumber];
 
@@ -138,6 +153,8 @@ class _QuizPageState extends State<QuizPage> {
   }
 }
 
+// added comment one
+
 // this is a test line
 
 /*
@@ -145,4 +162,6 @@ question1: 'You can lead a cow down stairs but not up stairs.', false,
 question2: 'Approximately one quarter of human bones are in the feet.', true,
 question3: 'A slug\'s blood is green.', true,
 */
+
 //hello
+
