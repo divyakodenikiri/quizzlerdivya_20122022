@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:quizzlerdivya_20122022/question.dart';
 
 void main() => runApp(Quizzler());
 
@@ -30,17 +29,25 @@ class _QuizPageState extends State<QuizPage> {
   List<Icon> scorkeeper = [];
 
   List<String> questions = [
-    'You can lead aa cow down stairs but not up stairs.?',
+
+
+
+    'You can lead an cow down stairs but not up stairs.?',
+   
+
+
     'Approximately one quarter of human bones are in the feet.?',
     'A slug\'s blood is green.?',
   ];
 
   List <bool> answers = [false,true,true];
+
   Question q1 = Question(
     q: 'You can lead a cow down stairs but not up stairs.?', a:false);
 
 
   
+
 
   int questionNumber = 0;
 
@@ -82,6 +89,7 @@ class _QuizPageState extends State<QuizPage> {
               onPressed: () {
                 //The user picked true.
 
+
                 bool correctAnswer = answers[questionNumber];
 
                   if(correctAnswer == true){
@@ -90,11 +98,12 @@ class _QuizPageState extends State<QuizPage> {
                 }else{
                   print('user wrong');
 
-
-                }
+            
                 setState(() {
                   questionNumber++;
                 });
+                }
+
 
               
                 print(questionNumber);
@@ -151,3 +160,4 @@ question2: 'Approximately one quarter of human bones are in the feet.', true,
 question3: 'A slug\'s blood is green.', true,
 */
 //hello
+//heloo
