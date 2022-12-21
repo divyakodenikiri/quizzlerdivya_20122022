@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(Quizzler());
@@ -26,6 +27,7 @@ class QuizPage extends StatefulWidget {
 
 class _QuizPageState extends State<QuizPage> {
   List<Icon> scorkeeper = [];
+
   List<String> questions = [
 
 
@@ -39,6 +41,13 @@ class _QuizPageState extends State<QuizPage> {
   ];
 
   List <bool> answers = [false,true,true];
+
+  Question q1 = Question(
+    q: 'You can lead a cow down stairs but not up stairs.?', a:false);
+
+
+  
+
 
   int questionNumber = 0;
 
@@ -140,6 +149,8 @@ class _QuizPageState extends State<QuizPage> {
     );
   }
 }
+
+// added comment one
 
 // this is a test line
 
